@@ -14,12 +14,12 @@ interface ProductCardProps {
 export default function ProductCard({ title, description, price, imageSrc, imageAlt, buyLink }: ProductCardProps) {
   return (
     <Card className="bg-gray-900 border-gray-800 overflow-hidden">
-      <div className="relative h-64 w-full bg-gray-800 flex items-center justify-center">
+      <div className="relative h-64 w-full bg-gray-800 flex items-center justify-center p-4">
         <Image
           src={imageSrc || "/placeholder.svg"}
           alt={imageAlt}
-          width={240}
-          height={240}
+          width={220}
+          height={220}
           className="object-contain"
         />
       </div>
