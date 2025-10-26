@@ -157,7 +157,7 @@ A tribute to the man who literally invented shadow work."
           </p>
           <p>
             The purpose of this site is to inspire personal reflection and encourage individuals to approach their own
-            challenges using logic, reasoning, and principles of virtue. Readers are encouraged to think critically,
+            challenges using logic, reasoning, principles of virtue, and a little humor. Readers are encouraged to think critically,
             question assumptions, and take responsibility for their own growth and decisions.
           </p>
           <p className="font-semibold">Use your judgment. Take what helps — and leave what doesn't.</p>
