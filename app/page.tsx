@@ -163,6 +163,11 @@ A tribute to the man who literally invented shadow work."
           <p className="font-semibold">Use your judgment. Take what helps — and leave what doesn't.</p>
         </div>
       </section>
+
+      {/* Footer Section */}
+      <footer className="w-full py-6 border-t border-gray-800 text-center text-sm text-gray-500">
+        © {new Date().getFullYear()} FigureOutYourBullshit.com. All rights reserved.
+      </footer>
     </main>
   )
 }
