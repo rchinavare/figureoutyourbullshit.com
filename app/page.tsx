@@ -25,12 +25,13 @@ export default function Home() {
           />
 
           <ProductCard
-            title="FOYB 100% Cotton T-Shirt"
-            description="Finally, a shirt that holds up better than your excuses. Comfortable enough to wear while pretending you've got it all figured out."
-            price="From $28.90"
+            title="Carl Jung FOYB 100% Cotton T-Shirt"
+            description="Psychology's OG called — he says it's time to deal with your shit.
+A tribute to the man who literally invented shadow work."
+            price="From $27.00"
             imageSrc="/foyb-shirt.png"
-            imageAlt="Black FOYB heavyweight t-shirt"
-            buyLink="https://figureoutyourbullshit.printful.me/product/foyb-heavyweight-t-shirt"
+            imageAlt="Black Carl Jung FOYB t-shirt"
+            buyLink="https://figureoutyourbullshit.printful.me/product/carl-jung-foyb-100-cotton-t-shirt"
           />
 
           <ProductCard
@@ -101,8 +102,8 @@ export default function Home() {
           <div>
             <h3 className="text-2xl font-bold mb-4">1. Realize Why You Suck</h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              Stop letting your ego embarrass you. Take accountability for yourself, and your situation, regardless of
-              how you got there. There is no growth without humility -- no improvement without it's pain.
+              Take accountability for yourself, and your situation, regardless of how you got there. There is no growth
+              without humility -- no improvement without it's pain. Stop letting your ego embarrass you.
             </p>
             <blockquote className="text-lg italic text-gray-400 border-l-4 border-gray-600 pl-4">
               "Real knowledge is to know the extent of one's ignorance." -Confucious
