@@ -8,7 +8,7 @@ export default function Home() {
       <div className="w-full max-w-5xl mx-auto pt-20 pb-8 text-center">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8">Figure Out Your Bullshit</h1>
         <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-300 mb-12">
-          Because the leading cause of most of your problems is you.
+          Because the leading cause of most of your problems is you
         </p>
       </div>
 
