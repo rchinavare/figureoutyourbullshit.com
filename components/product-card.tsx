@@ -9,19 +9,53 @@ interface ProductCardProps {
   imageSrc: string
   imageAlt: string
   buyLink: string
+  imageSize?: number
+  imageClassName?: string
+  secondImageSrc?: string
+  secondImageAlt?: string
 }
 
-export default function ProductCard({ title, description, price, imageSrc, imageAlt, buyLink }: ProductCardProps) {
+export default function ProductCard({
+  title,
+  description,
+  price,
+  imageSrc,
+  imageAlt,
+  buyLink,
+  imageSize = 220,
+  imageClassName = "",
+  secondImageSrc,
+  secondImageAlt,
+}: ProductCardProps) {
   return (
     <Card className="bg-gray-900 border-gray-800 overflow-hidden">
-      <div className="relative h-64 w-full bg-gray-800 flex items-center justify-center p-4">
-        <Image
-          src={imageSrc || "/placeholder.svg"}
-          alt={imageAlt}
-          width={220}
-          height={220}
-          className="object-contain"
-        />
+      <div className="relative h-64 w-full bg-gray-800 flex items-center justify-center p-4 gap-1">
+        {secondImageSrc ? (
+          <>
+            <Image
+              src={imageSrc || "/placeholder.svg"}
+              alt={imageAlt}
+              width={180}
+              height={180}
+              className="object-contain"
+            />
+            <Image
+              src={secondImageSrc || "/placeholder.svg"}
+              alt={secondImageAlt || imageAlt}
+              width={165}
+              height={165}
+              className="object-contain"
+            />
+          </>
+        ) : (
+          <Image
+            src={imageSrc || "/placeholder.svg"}
+            alt={imageAlt}
+            width={imageSize}
+            height={imageSize}
+            className={`object-contain ${imageClassName}`}
+          />
+        )}
       </div>
       <CardContent className="p-6">
         <h3 className="text-xl font-bold mb-2">{title.replace("FOYB", "FOYB™")}</h3>
@@ -30,7 +64,7 @@ export default function ProductCard({ title, description, price, imageSrc, image
       </CardContent>
       <CardFooter className="p-6 pt-0">
         <a href={buyLink} target="_blank" rel="noopener noreferrer" className="w-full">
-          <Button className="w-full bg-white text-black hover:bg-gray-200">Buy Now</Button>
+          <Button className="w-full bg-white text-black hover:bg-gray-200">Shop Now</Button>
         </a>
       </CardFooter>
     </Card>

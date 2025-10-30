@@ -16,29 +16,32 @@ export default function Home() {
       <section className="w-full max-w-6xl mx-auto pt-8 pb-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <ProductCard
-            title="FOYB Mug 15oz"
+            title="FOYB 15oz Lotus Bean Mug"
             description="Coffee fueled the Age of Enlightenment in the 17th century. Get your shit together, already."
             price="$14.00"
-            imageSrc="/mug-15oz.png"
-            imageAlt="Black glossy FOYB coffee mug"
+            imageSrc="/foyb-mug.png"
+            imageAlt="Black glossy FOYB coffee mug front"
+            secondImageSrc="/foyb-bean-mug-back.png"
+            secondImageAlt="Black glossy FOYB coffee mug back with zen bean"
             buyLink="https://figureoutyourbullshit.printful.me/product/black-glossy-mug"
           />
 
           <ProductCard
-            title="Carl Jung FOYB 100% Cotton T-Shirt"
+            title="FOYB Carl Jung 100% Cotton T-Shirt"
             description="Psychology's OG called — he says it's time to deal with your shit.
 A tribute to the man who literally invented shadow work."
             price="From $27.00"
-            imageSrc="/foyb-shirt.png"
+            imageSrc="/cj-tshirt.png"
             imageAlt="Black Carl Jung FOYB t-shirt"
             buyLink="https://figureoutyourbullshit.printful.me/product/carl-jung-foyb-100-cotton-t-shirt"
+            imageSize={200}
           />
 
           <ProductCard
-            title="FOYB Camo Trucker Hat"
+            title="FOYB Trucker Hat"
             description="Trucker style, therapist energy. The FOYB Trucker Hat is built for long drives and short tempers."
             price="$22.50"
-            imageSrc="/foyb-hat.png"
+            imageSrc="/foyb-truckhat-camo.png"
             imageAlt="Camo trucker hat with green FOYB logo"
             buyLink="https://figureoutyourbullshit.printful.me/product/foyb-camo-trucker-hat"
           />
@@ -47,7 +50,7 @@ A tribute to the man who literally invented shadow work."
             title="FOYB 100% Organic Cotton Hoodie"
             description="Comfort for your body. Discomfort for your ego. Keep warm while facing cold realities."
             price="From $57.20"
-            imageSrc="/foyb-hoodie.png"
+            imageSrc="/foyb-hoodie-final.png"
             imageAlt="Black FOYB hoodie"
             buyLink="https://figureoutyourbullshit.printful.me/product/foyb-hoodie"
           />
@@ -56,37 +59,29 @@ A tribute to the man who literally invented shadow work."
             title="FOYB Teddy"
             description="Meet the FOYB Teddy. A plush companion for those difficult conversations with yourself."
             price="$29.00"
-            imageSrc="/foyb-teddy.png"
+            imageSrc="/foyb-teddy-new.png"
             imageAlt="Tan teddy bear wearing FOYB t-shirt"
             buyLink="https://figureoutyourbullshit.printful.me/product/foyb-teddy"
           />
 
           <ProductCard
-            title="FOYB Camo Desk Mat"
+            title="FOYB 16X32 Desk Mat"
             description="Even your workspace can't hide from your bullshit. Give your desk a glow-up, and yourself a gentle verbal beating."
             price="$21.00"
-            imageSrc="/foyb-mat.png"
+            imageSrc="/foyb-deskmat-camo.png"
             imageAlt="Camo pattern desk mat with FOYB text"
             buyLink="https://figureoutyourbullshit.printful.me/product/foyb-camo-desk-mat"
+            imageSize={260}
           />
         </div>
 
         <div className="text-center">
           <a href="https://figureoutyourbullshit.printful.me/" target="_blank" rel="noopener noreferrer">
             <Button className="bg-white text-black hover:bg-gray-200 text-lg px-8 py-6">
-              Browse The Entire FOYB™ Store
+              View The Entire FOYB™ Shop
             </Button>
           </a>
         </div>
-      </section>
-
-      {/* Philosophy Snippet */}
-      <section className="w-full max-w-3xl mx-auto pt-16 pb-16 border-t border-gray-800">
-        <p className="text-2xl font-bold text-white mb-8 text-center">Stay Calm. You're Probably The Problem.</p>
-        <blockquote className="text-xl italic text-gray-300 mb-6">
-          "Until you make the unconscious conscious, it will direct your life and you will call it fate."
-        </blockquote>
-        <p className="text-right text-gray-400">— Carl Jung</p>
       </section>
 
       {/* Quick Start Guide */}
@@ -103,7 +98,7 @@ A tribute to the man who literally invented shadow work."
             <h3 className="text-2xl font-bold mb-4">1. Realize Why You Suck</h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
               Take accountability for yourself, and your situation, regardless of how you got there. There is no growth
-              without humility -- no improvement without it's pain. Stop letting your ego embarrass you.
+              without humility -- no improvement without its pain. Stop letting your ego embarrass you.
             </p>
             <blockquote className="text-lg italic text-gray-400 border-l-4 border-gray-600 pl-4">
               "Real knowledge is to know the extent of one's ignorance." -Confucious
@@ -137,10 +132,19 @@ A tribute to the man who literally invented shadow work."
         </div>
       </section>
 
+      {/* Philosophy Snippet */}
+      <section className="w-full max-w-3xl mx-auto pt-16 pb-16 border-t border-gray-800">
+        <p className="text-2xl font-bold text-white mb-8 text-center">Stay Calm. You're Probably The Problem.</p>
+        <blockquote className="text-xl italic text-gray-300 mb-6">
+          "Until you make the unconscious conscious, it will direct your life and you will call it fate."
+        </blockquote>
+        <p className="text-right text-gray-400">— Carl Jung</p>
+      </section>
+
       {/* Contact Section */}
       <section className="w-full max-w-3xl mx-auto py-16 border-t border-gray-800">
         <p className="text-center text-gray-300 leading-relaxed">
-          For custom orders or serious questions, please email us at{" "}
+          For questions or comments, email us at{" "}
           <a href="mailto:info@figureoutyourbullshit.com" className="text-white hover:underline">
             info@figureoutyourbullshit.com
           </a>
@@ -157,8 +161,8 @@ A tribute to the man who literally invented shadow work."
           </p>
           <p>
             The purpose of this site is to inspire personal reflection and encourage individuals to approach their own
-            challenges using logic, reasoning, principles of virtue, and a little humor. Readers are encouraged to think critically,
-            question assumptions, and take responsibility for their own growth and decisions.
+            challenges using logic, reasoning, principles of virtue, and a little humor. Readers are encouraged to think
+            critically, question assumptions, and take responsibility for their own growth and decisions.
           </p>
           <p className="font-semibold">Use your judgment. Take what helps — and leave what doesn't.</p>
         </div>
@@ -166,7 +170,7 @@ A tribute to the man who literally invented shadow work."
 
       {/* Footer Section */}
       <footer className="w-full py-6 border-t border-gray-800 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} FigureOutYourBullshit.com. All rights reserved.
+        © {new Date().getFullYear()} All rights reserved. figureoutyourbullshit.com.
       </footer>
     </main>
   )
