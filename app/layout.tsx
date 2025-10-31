@@ -9,6 +9,16 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Figure Out Your Bullshit",
   description: "Life's complicated. Your approach to it doesn't have to be.",
+  openGraph: {
+    title: "Figure Out Your Bullshit",
+    description: "Life's complicated. Your approach to it doesn't have to be.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Figure Out Your Bullshit",
+    description: "Life's complicated. Your approach to it doesn't have to be.",
+  },
     generator: 'v0.app'
 }
 

@@ -19,9 +19,9 @@ export default function Home() {
             title="FOYB 15oz Lotus Bean Mug"
             description="Coffee fueled the Age of Enlightenment in the 17th century. Get your shit together, already."
             price="$14.00"
-            imageSrc="/foyb-mug.png"
+            imageSrc="/front-mug.png"
             imageAlt="Black glossy FOYB coffee mug front"
-            secondImageSrc="/foyb-bean-mug-back.png"
+            secondImageSrc="/foyb-bean-mug-back-tm.png"
             secondImageAlt="Black glossy FOYB coffee mug back with zen bean"
             buyLink="https://figureoutyourbullshit.printful.me/product/black-glossy-mug"
           />
@@ -29,7 +29,7 @@ export default function Home() {
           <ProductCard
             title="FOYB Carl Jung 100% Cotton T-Shirt"
             description="Psychology's OG called — he says it's time to deal with your shit.
-A tribute to the man who literally invented shadow work."
+A tribute to the man who invented shadow work."
             price="From $27.00"
             imageSrc="/cj-tshirt.png"
             imageAlt="Black Carl Jung FOYB t-shirt"
@@ -65,23 +65,32 @@ A tribute to the man who literally invented shadow work."
           />
 
           <ProductCard
-            title="FOYB 16X32 Desk Mat"
-            description="Even your workspace can't hide from your bullshit. Give your desk a glow-up, and yourself a gentle verbal beating."
-            price="$21.00"
-            imageSrc="/foyb-deskmat-camo.png"
-            imageAlt="Camo pattern desk mat with FOYB text"
-            buyLink="https://figureoutyourbullshit.printful.me/product/foyb-camo-desk-mat"
+            title="FOYB Carl Jung 100% Soy Wax Candle"
+            description="Smells like self-awareness. Burns clean — unlike your coping mechanisms."
+            price="$15.00"
+            imageSrc="/foyb-candle.png"
+            imageAlt="FOYB Carl Jung soy wax candle with black lid"
+            buyLink="https://figureoutyourbullshit.printful.me/"
             imageSize={260}
           />
         </div>
 
         <div className="text-center">
           <a href="https://figureoutyourbullshit.printful.me/" target="_blank" rel="noopener noreferrer">
-            <Button className="bg-white text-black hover:bg-gray-200 text-lg px-8 py-6">
+            <Button className="bg-white text-black hover:bg-gray-200 text-xl font-bold px-8 py-6">
               View The Entire FOYB™ Shop
             </Button>
           </a>
         </div>
+      </section>
+
+      {/* Philosophy Snippet */}
+      <section className="w-full max-w-3xl mx-auto pt-16 pb-16 border-t border-gray-800">
+        <p className="text-2xl font-bold text-white mb-8 text-center">Stay Calm. You're Probably The Problem.</p>
+        <blockquote className="text-xl italic text-gray-300 mb-6">
+          "Until you make the unconscious conscious, it will direct your life and you will call it fate."
+        </blockquote>
+        <p className="text-right text-gray-400">— Carl Jung</p>
       </section>
 
       {/* Quick Start Guide */}
@@ -132,25 +141,6 @@ A tribute to the man who literally invented shadow work."
         </div>
       </section>
 
-      {/* Philosophy Snippet */}
-      <section className="w-full max-w-3xl mx-auto pt-16 pb-16 border-t border-gray-800">
-        <p className="text-2xl font-bold text-white mb-8 text-center">Stay Calm. You're Probably The Problem.</p>
-        <blockquote className="text-xl italic text-gray-300 mb-6">
-          "Until you make the unconscious conscious, it will direct your life and you will call it fate."
-        </blockquote>
-        <p className="text-right text-gray-400">— Carl Jung</p>
-      </section>
-
-      {/* Contact Section */}
-      <section className="w-full max-w-3xl mx-auto py-16 border-t border-gray-800">
-        <p className="text-center text-gray-300 leading-relaxed">
-          For questions or comments, email us at{" "}
-          <a href="mailto:info@figureoutyourbullshit.com" className="text-white hover:underline">
-            info@figureoutyourbullshit.com
-          </a>
-        </p>
-      </section>
-
       {/* Disclaimer Section */}
       <section className="w-full max-w-3xl mx-auto py-16 border-t border-gray-800">
         <h3 className="text-xl font-bold mb-6 text-center">DISCLAIMER</h3>
@@ -166,6 +156,16 @@ A tribute to the man who literally invented shadow work."
           </p>
           <p className="font-semibold">Use your judgment. Take what helps — and leave what doesn't.</p>
         </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="w-full max-w-3xl mx-auto py-16 border-t border-gray-800">
+        <p className="text-center text-gray-300 leading-relaxed">
+          For questions or comments, email us at{" "}
+          <a href="mailto:info@figureoutyourbullshit.com" className="text-white hover:underline">
+            info@figureoutyourbullshit.com
+          </a>
+        </p>
       </section>
 
       {/* Footer Section */}

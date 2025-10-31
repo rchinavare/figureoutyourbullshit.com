@@ -35,8 +35,8 @@ export default function ProductCard({
             <Image
               src={imageSrc || "/placeholder.svg"}
               alt={imageAlt}
-              width={180}
-              height={180}
+              width={165}
+              height={165}
               className="object-contain"
             />
             <Image
@@ -64,7 +64,7 @@ export default function ProductCard({
       </CardContent>
       <CardFooter className="p-6 pt-0">
         <a href={buyLink} target="_blank" rel="noopener noreferrer" className="w-full">
-          <Button className="w-full bg-white text-black hover:bg-gray-200">Shop Now</Button>
+          <Button className="w-full bg-white text-black hover:bg-gray-200">Buy Now</Button>
         </a>
       </CardFooter>
     </Card>
