@@ -38,7 +38,7 @@ A tribute to the man who invented shadow work."
           />
 
           <ProductCard
-            title="FOYB Trucker Hat"
+            title="FOYB Camo Trucker Hat"
             description="Trucker style, therapist energy. The FOYB Trucker Hat is built for long drives and short tempers."
             price="$22.50"
             imageSrc="/foyb-truckhat-camo.png"
@@ -107,7 +107,7 @@ A tribute to the man who invented shadow work."
             <h3 className="text-2xl font-bold mb-4">1. Realize Why You Suck</h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
               Take accountability for yourself, and your situation, regardless of how you got there. There is no growth
-              without humility -- no improvement without its pain. Stop letting your ego embarrass you.
+              without humility - no improvement without its pain. Stop letting your ego embarrass you.
             </p>
             <blockquote className="text-lg italic text-gray-400 border-l-4 border-gray-600 pl-4">
               "Real knowledge is to know the extent of one's ignorance." -Confucious
@@ -119,7 +119,7 @@ A tribute to the man who invented shadow work."
             <h3 className="text-2xl font-bold mb-4">2. Own It and Get Over It</h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
               It's not what happens to you that dictates who you are, but how you handle it. You can't control other
-              people, but you can control your emotional response. You're not a victim, you lack tools.
+              people. Learn to control your emotions. You're not a victim, you lack tools.
             </p>
             <blockquote className="text-lg italic text-gray-400 border-l-4 border-gray-600 pl-4">
               "He who angers you conquers you" -Elizabeth Kenny
@@ -151,8 +151,8 @@ A tribute to the man who invented shadow work."
           </p>
           <p>
             The purpose of this site is to inspire personal reflection and encourage individuals to approach their own
-            challenges using logic, reasoning, principles of virtue, and a little humor. Readers are encouraged to think
-            critically, question assumptions, and take responsibility for their own growth and decisions.
+            challenges using logic and reasoning, principles of virtue, and a little humor. Readers are encouraged to
+            think critically, question assumptions, and take responsibility for their own growth and decisions.
           </p>
           <p className="font-semibold">Use your judgment. Take what helps — and leave what doesn't.</p>
         </div>
