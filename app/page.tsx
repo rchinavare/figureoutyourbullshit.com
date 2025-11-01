@@ -119,7 +119,7 @@ A tribute to the man who invented shadow work."
             <h3 className="text-2xl font-bold mb-4">2. Own It and Get Over It</h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
               It's not what happens to you that dictates who you are, but how you handle it. You can't control other
-              people. Learn to control your emotions. You're not a victim, you lack tools.
+              people, but you can control your emotions. You're not a victim, you lack tools.
             </p>
             <blockquote className="text-lg italic text-gray-400 border-l-4 border-gray-600 pl-4">
               "He who angers you conquers you" -Elizabeth Kenny
