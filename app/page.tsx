@@ -107,7 +107,7 @@ A tribute to the man who invented shadow work."
             <h3 className="text-2xl font-bold mb-4">1. Realize Why You Suck</h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
               Take accountability for yourself, and your situation, regardless of how you got there. There is no growth
-              without humility - no improvement without its pain. Stop letting your ego embarrass you.
+              without humility — no improvement without its pain. Stop letting your ego embarrass you.
             </p>
             <blockquote className="text-lg italic text-gray-400 border-l-4 border-gray-600 pl-4">
               "Real knowledge is to know the extent of one's ignorance." -Confucious
