@@ -150,7 +150,7 @@ A tribute to the man who invented shadow work."
             is not a prescription for becoming a better person, nor a substitute for therapy or counseling.
           </p>
           <p>
-            The purpose of this site is to promote self-awareness, inspire personal reflection, and encourage individuals to approach their own
+            The purpose of this site is to inspire personal reflection, promote self-awareness, and encourage individuals to approach their own
             challenges using logic and reasoning, principles of virtue, and a little humor. Readers are encouraged to
             think critically, question assumptions, and take responsibility for their own growth and decisions.
           </p>
