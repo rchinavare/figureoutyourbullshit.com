@@ -9,17 +9,29 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Figure Out Your Bullshit",
   description: "Life's complicated. Your approach to it doesn't have to be.",
+  metadataBase: new URL("https://figureoutyourbullshit.com"),
   openGraph: {
     title: "Figure Out Your Bullshit",
     description: "Life's complicated. Your approach to it doesn't have to be.",
+    url: "https://figureoutyourbullshit.com",
+    siteName: "Figure Out Your Bullshit",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Figure Out Your Bullshit",
+      },
+    ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Figure Out Your Bullshit",
     description: "Life's complicated. Your approach to it doesn't have to be.",
+    images: ["/og-image.png"],
   },
-    generator: 'v0.app'
+  generator: "v0.app",
 }
 
 export default function RootLayout({
