@@ -18,7 +18,7 @@ export default function Home() {
           <ProductCard
             title="FOYB 15oz Lotus Bean Mug"
             description="Coffee fueled the Age of Enlightenment in the 17th century. Get your shit together, already."
-            price="$14.00"
+            price="$8.95"
             imageSrc="/front-mug.png"
             imageAlt="Black glossy FOYB coffee mug front"
             secondImageSrc="/foyb-bean-mug-back-tm.png"
