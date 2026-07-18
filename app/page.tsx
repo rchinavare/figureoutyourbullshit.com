@@ -30,7 +30,7 @@ export default function Home() {
             title="FOYB Carl Jung 100% Cotton T-Shirt"
             description="Psychology's OG called — he says it's time to deal with your shit.
 A tribute to the man who invented shadow work."
-            price="From $27.00"
+            price="From $21.24"
             imageSrc="/cj-tshirt.png"
             imageAlt="Black Carl Jung FOYB t-shirt"
             buyLink="https://figureoutyourbullshit.printful.me/product/carl-jung-foyb-100-cotton-t-shirt"
