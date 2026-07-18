@@ -16,7 +16,7 @@ export default function Home() {
       <section className="w-full max-w-6xl mx-auto pt-8 pb-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <ProductCard
-            title="FOYBS 15oz Lotus Bean Mug"
+            title="FOYB 15oz Lotus Bean Mug"
             description="Coffee fueled the Age of Enlightenment in the 17th century. Get your shit together, already."
             price="$8.95"
             imageSrc="/front-mug.png"
@@ -27,7 +27,7 @@ export default function Home() {
           />
 
           <ProductCard
-            title="FOYBS Carl Jung 100% Cotton T-Shirt"
+            title="FOYB Carl Jung 100% Cotton T-Shirt"
             description="Psychology's OG called — he says it's time to deal with your shit.
 A tribute to the man who invented shadow work."
             price="From $21.24"
@@ -38,7 +38,7 @@ A tribute to the man who invented shadow work."
           />
 
           <ProductCard
-            title="FOYBS Camo Trucker Hat"
+            title="FOYB Camo Trucker Hat"
             description="Trucker style, therapist energy. The FOYB Trucker Hat is built for long drives and short tempers."
             price="$22.50"
             imageSrc="/foyb-truckhat-camo.png"
@@ -47,7 +47,7 @@ A tribute to the man who invented shadow work."
           />
 
           <ProductCard
-            title="FOYBS 100% Organic Cotton Hoodie"
+            title="FOYB 100% Organic Cotton Hoodie"
             description="Comfort for your body. Discomfort for your ego. Keep warm while facing cold realities."
             price="From $57.20"
             imageSrc="/foyb-hoodie-final.png"
@@ -56,7 +56,7 @@ A tribute to the man who invented shadow work."
           />
 
           <ProductCard
-            title="FOYBS Teddy"
+            title="FOYB Teddy"
             description="Meet the FOYB Teddy. A plush companion for those difficult conversations with yourself."
             price="$29.00"
             imageSrc="/foyb-teddy-new.png"
@@ -65,7 +65,7 @@ A tribute to the man who invented shadow work."
           />
 
           <ProductCard
-            title="FOYBS Carl Jung 100% Soy Wax Candle"
+            title="FOYB Carl Jung 100% Soy Wax Candle"
             description="Smells like self-awareness. Burns clean — unlike your coping mechanisms."
             price="$15.00"
             imageSrc="/foyb-candle.png"
